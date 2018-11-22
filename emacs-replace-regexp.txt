@@ -1,0 +1,13 @@
+To remove wiki tags in text from wikipedia, 
+
+e.g. text like this:
+
+"Format": "Broadsheet (\/wiki\/Broadsheet)",
+"Headquarters": "Alexander City (\/wiki\/Alexander_City), Alabama",
+
+"Headquarters": "4305 McClellan BoulevardAnniston (\/wiki\/Anniston,_Alabama), Alabama 36202\u00a0United States (\/wiki\/United_States)",
+
+
+Replace \( (\\\/wiki\\\/[[:ascii:]]*?)\) with nothing.
+
+(default \( (\\\/wiki\\\/[[:ascii:]]*?)\) → ): 

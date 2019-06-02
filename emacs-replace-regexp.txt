@@ -1,6 +1,15 @@
 repl regexp string to find dates: 
 \([[:digit:]][[:digit:]]\/[[:digit:]][[:digit:]]\)
 
+Useful for processing copy-pasted statements:
+
+Replace a space after a date with a tab
+
+\([[:digit:]][[:digit:]]\/[[:digit:]][[:digit:]]\) \([[:ascii:]]\)
+Replace a space after a cents \.\d\d with a tab
+
+\([[:digit:]]\.[[:digit:]][[:digit:]]\) \([[:ascii:]]\)
+
 To remove all links in parens:
 \( (http:\\\/[[:ascii:]]*?)\)
 (replace with nothing)
